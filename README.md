@@ -8,7 +8,7 @@ This application will help people when to take their medications. Some people ha
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. To manage our dependencies and virtual environments, we're going to use a tool called pipenv so make sure you have it installed.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. To manage the dependencies and virtual environments, we're going to use a tool called pipenv so make sure you have it installed.
 
 * Fork and clone the project repository
 * Ensure you have PostgreSQL installed and running
@@ -26,6 +26,8 @@ These instructions will get you a copy of the project up and running on your loc
 ## Deployment
 
 This application will be deployed to Surge for the front-end and MongoDB Atlas for the back-end. Please click on the link below to see the application.
+
+**Link will be here when available**
 
 ## Built With
 
