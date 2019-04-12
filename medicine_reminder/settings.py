@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'medicine_reminder.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'medicine_reminder',
         'USER': 'medicine_user',
         'PASSWORD': 'medicine',

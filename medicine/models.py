@@ -8,7 +8,7 @@ from django.db import models
 #         return self.first_name
 
 class Medication(models.Model):
-    # user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='medications')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='medications')
     name = models.CharField(max_length=100)
     directions = models.TextField()
     servings = models.IntegerField()
@@ -16,6 +16,4 @@ class Medication(models.Model):
 
     def __str__(self):
         return self.name
-
-
 
