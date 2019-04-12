@@ -1,1 +1,1 @@
-web: gunicorn medicine.wsgi --log-file -
+web: gunicorn medicine_reminder.wsgi --log-file -
